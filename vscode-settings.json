@@ -3,7 +3,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.activityBar.location": "top",
   "git.autofetch": true,
-  "editor.fontFamily": "'FiraCode Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.enabled": false,
   "editor.formatOnSave": false,
   "editor.wordWrap": "on",
