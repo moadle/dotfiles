@@ -1,28 +1,75 @@
 {
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnPaste": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "git.autofetch": true,
+  "gitlens.mode.active": "zen",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "thunder-client.requestLayout": "Top/Bottom",
+  "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "vscode-icons",
   "workbench.activityBar.location": "top",
-  "git.autofetch": true,
-  "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": false,
-  "editor.wordWrap": "on",
-  "[typescript][typescriptreact][javascript][javascriptreact][json][jsonc][html][css][scss][less][yaml][svg][prisma]": {
-    "editor.formatOnSave": true
-  },
-  "[typescript][typescriptreact][javascript][javascriptreact]": {
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
     }
   },
-  "[typescript][typescriptreact][javascript][javascriptreact][json][jsonc][html][css][scss][less][yaml]": {
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[svg]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "jock.svg"
-  },
-  "vsicons.dontShowNewVersionMessage": true,
-  "thunder-client.requestLayout": "Top/Bottom",
-  "gitlens.mode.active": "zen",
-  "liveServer.settings.donotShowInfoMsg": true
+  }
 }
