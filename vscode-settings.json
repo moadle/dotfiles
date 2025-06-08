@@ -1,7 +1,9 @@
 {
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.maxComputationTime": 0,
   "editor.detectIndentation": true,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
   "editor.formatOnPaste": false,
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
@@ -11,30 +13,47 @@
   "editor.wordWrap": "on",
   "eslint.enable": true,
   "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
-  "files.eol": "\n",
   "git.autofetch": true,
   "outline.collapseItems": "alwaysCollapse",
-  "scm.showHistoryGraph": false,
+  "window.autoDetectColorScheme": true,
   "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "vscode-icons",
   "workbench.activityBar.location": "top",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Atom One Dark",
   "[typescript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "always",
+      "source.organizeImports": "always"
+    }
   },
   "[typescriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "always",
+      "source.organizeImports": "always"
+    }
   },
   "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "always",
+      "source.organizeImports": "always"
+    }
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "always",
+      "source.organizeImports": "always"
+    }
   },
   "[json]": {
     "editor.formatOnSave": true,
@@ -75,14 +94,71 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // ** Extensions **
-  "codeium.enableCodeLens": false,
-  "markdown-preview-enhanced.previewTheme": "one-dark.css",
-  "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
-  "gitlens.mode.active": "zen",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
   "turboConsoleLog.addSemicolonInTheEnd": true,
   "turboConsoleLog.logMessagePrefix": "🪵",
   "turboConsoleLog.quote": "'",
-  "turboConsoleLog.includeFileNameAndLineNum": true,
-  "vsicons.dontShowNewVersionMessage": true
+  "turboConsoleLog.logMessageSuffix": " => ",
+  "turboConsoleLog.includeLineNum": true,
+  "turboConsoleLog.includeFilename": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "java.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "redhat.telemetry.enabled": false,
+  "dart.flutterSdkPath": "/Users/minhdao/flutter",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "fileHistory": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "intelephense.telemetry.enabled": false,
+  "intelephense.environment.phpVersion": "8.3.0",
+  "intelephense.codeLens.implementations.enable": true,
+  "intelephense.codeLens.overrides.enable": true,
+  "intelephense.codeLens.parent.enable": true,
+  "intelephense.codeLens.usages.enable": true,
+  "intelephense.codeLens.references.enable": true,
+  "github.copilot.selectedCompletionModel": "",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "todo-tree.general.tags": ["XBUG", "XFIXME", "XTODO"]
 }
