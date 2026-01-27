@@ -23,7 +23,7 @@
       "model": "openai/gpt-5.1-codex-mini"
     },
     "multimodal-looker": {
-      "model": "openai/gpt-5.2"
+      "model": "openai/gpt-5.2-codex"
     },
     "prometheus": {
       "model": "openai/gpt-5.2"
