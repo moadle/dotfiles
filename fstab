@@ -1,0 +1,3 @@
+# run `blkid` or `lsblk` to find UUID
+UUID= /media/shark  ntfs uid=1000,gid=1000,dmask=022,fmask=133 0 0
+UUID= /media/parrot ntfs uid=1000,gid=1000,dmask=022,fmask=133 0 0
