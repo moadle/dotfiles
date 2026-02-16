@@ -1,79 +1,47 @@
 {
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
-  "lsp": {
-    "typescript-language-server": {
-      "command": ["typescript-language-server", "--stdio"],
-      "extensions": [".ts", ".tsx"]
-    }
-  },
   "agents": {
     "sisyphus": {
-      "model": "openai/gpt-5.2"
+      "model": "openai/gpt-5.3-codex"
     },
     "sisyphus-junior": {
-      "model": "openai/gpt-5.2"
+      "model": "opencode/kimi-k2.5"
     },
     "hephaestus": {
-      "model": "openai/gpt-5.2-codex",
-      "variant": "medium"
+      "model": "openai/gpt-5.3-codex"
     },
     "oracle": {
-      "model": "kimi-for-coding/k2p5"
+      "model": "openai/gpt-5.3-codex"
     },
     "librarian": {
-      "model": "kimi-for-coding/k2p5"
+      "model": "opencode/glm-5"
     },
     "explore": {
-      "model": "openai/gpt-5.1-codex-mini"
+      "model": "opencode/kimi-k2.5"
     },
     "multimodal-looker": {
-      "model": "openai/gpt-5.2"
+      "model": "opencode/kimi-k2.5"
     },
     "prometheus": {
-      "model": "openai/gpt-5.2"
+      "model": "openai/gpt-5.3-codex"
     },
     "metis": {
-      "model": "openai/gpt-5.2-codex"
+      "model": "openai/gpt-5.3-codex"
     },
     "momus": {
-      "model": "kimi-for-coding/k2p5"
+      "model": "opencode/glm-5"
     },
     "atlas": {
-      "model": "openai/gpt-5.2"
+      "model": "openai/gpt-5.3-codex"
     },
     "plan": {
-      "model": "openai/gpt-5.2"
+      "model": "openai/gpt-5.3-codex"
     },
     "build": {
-      "model": "openai/gpt-5.2-codex"
+      "model": "openai/gpt-5.3-codex"
     },
     "OpenCode-Builder": {
-      "model": "openai/gpt-5.2-codex"
-    }
-  },
-  "categories": {
-    "visual-engineering": {
-      "model": "kimi-for-coding/k2p5"
-    },
-    "ultrabrain": {
-      "model": "openai/gpt-5.2-codex",
-      "variant": "xhigh"
-    },
-    "artistry": {
-      "model": "kimi-for-coding/k2p5"
-    },
-    "quick": {
-      "model": "kimi-for-coding/k2p5"
-    },
-    "unspecified-low": {
-      "model": "openai/gpt-5.2"
-    },
-    "unspecified-high": {
-      "model": "openai/gpt-5.2",
-      "variant": "high"
-    },
-    "writing": {
-      "model": "openai/gpt-5.2"
+      "model": "openai/gpt-5.3-codex"
     }
   }
 }
