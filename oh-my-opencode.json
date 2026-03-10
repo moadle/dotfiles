@@ -10,8 +10,7 @@
       "fallback_models": ["openai/gpt-5.4"]
     },
     "hephaestus": {
-      "model": "openai/gpt-5.4",
-      "fallback_models": ["opencode/glm-5"]
+      "model": "openai/gpt-5.3-codex"
     },
     "oracle": {
       "model": "openai/gpt-5.4",
@@ -80,17 +79,21 @@
       "fallback_models": ["opencode/glm-5"]
     },
     "quick": {
-      "model": "opencode/kimi-k2.5"
+      "model": "opencode/kimi-k2.5",
+      "fallback_models": ["openai/glm-5"]
     },
     "unspecified-low": {
-      "model": "opencode/kimi-k2.5"
+      "model": "opencode/kimi-k2.5",
+      "fallback_models": ["openai/gpt-5.4"]
     },
     "unspecified-high": {
       "model": "openai/gpt-5.4",
-      "variant": "high"
+      "variant": "high",
+      "fallback_models": ["opencode/glm-5"]
     },
     "writing": {
-      "model": "opencode/kimi-k2.5"
+      "model": "opencode/kimi-k2.5",
+      "fallback_models": ["openai/gpt-5.4"]
     }
   },
   "websearch": {
