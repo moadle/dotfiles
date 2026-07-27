@@ -1,138 +1,160 @@
 {
-  "diffEditor.renderSideBySide": false,
-  "diffEditor.maxComputationTime": 0,
-  "editor.detectIndentation": true,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
-  "editor.formatOnPaste": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.linkedEditing": true,
-  "editor.suggestSelection": "first",
-  "editor.snippetSuggestions": "top",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
-  "eslint.enable": true,
-  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
-  "git.autofetch": true,
-  "outline.collapseItems": "alwaysCollapse",
-  "window.autoDetectColorScheme": true,
-  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.activityBar.location": "top",
-  "workbench.sideBar.location": "left",
-  "workbench.preferredLightColorTheme": "Atom One Light",
-  "workbench.preferredDarkColorTheme": "Atom One Dark",
-  "workbench.colorTheme": "Atom One Dark",
-  "[typescript]": {
+  "[csharp]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.removeUnusedImports": "always",
-      "source.organizeImports": "always"
-    }
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.removeUnusedImports": "always",
-      "source.organizeImports": "always"
-    }
-  },
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.removeUnusedImports": "always",
-      "source.organizeImports": "always"
-    }
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.removeUnusedImports": "always",
-      "source.organizeImports": "always"
-    }
-  },
-  "[json]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[less]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[svg]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "jock.svg"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[handlebars]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[prisma]": {
-    "editor.formatOnSave": true
-  },
-  "[dockercompose]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dart]": {
-    "editor.formatOnSave": true
-  },
-  "[rust]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "[vue]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
-      "source.removeUnusedImports": "always",
-      "source.organizeImports": "always"
-    }
+      "source.organizeImports": "explicit",
+    },
+    "editor.formatOnSave": true,
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
   },
   "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
   },
-  "turboConsoleLog.addSemicolonInTheEnd": true,
-  "turboConsoleLog.logMessagePrefix": "🪵",
-  "turboConsoleLog.quote": "'",
-  "turboConsoleLog.logMessageSuffix": " => ",
-  "turboConsoleLog.includeLineNum": true,
-  "turboConsoleLog.includeFilename": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "java.referencesCodeLens.enabled": true,
-  "javascript.referencesCodeLens.enabled": true,
-  "javascript.referencesCodeLens.showOnAllFunctions": true,
-  "typescript.referencesCodeLens.enabled": true,
-  "typescript.referencesCodeLens.showOnAllFunctions": true,
-  "redhat.telemetry.enabled": false,
-  "dart.flutterSdkPath": "/Users/minhdao/flutter",
+  "[prisma]": {
+    "editor.formatOnSave": true,
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[sql]": {
+    "editor.formatOnSave": true,
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg",
+    "editor.formatOnSave": true,
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[vue]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml",
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "biome.suggestInstallingGlobally": false,
+  "cSpell.enabledFileTypes": {
+    "*": false,
+    "prisma": true,
+    "sql": true,
+  },
+  "cSpell.userWords": [
+    "autoincrement",
+    "dbgenerated",
+    "simb",
+    "tobs",
+    "varchar",
+  ],
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.flutterSdkPath": "~/flutter",
+  "dart.env": {
+    "CHROME_EXECUTABLE": "/Applications/Google Chrome Beta.app/Contents/MacOS/Google Chrome Beta",
+  },
+  "dbcode.ai.inlineCompletion": false,
+  "dbcode.connections": [],
+  "dbcode.resultLocation": "beside",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.renderSideBySide": true,
+  "editor.detectIndentation": true,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.linkedEditing": true,
+  "editor.maxTokenizationLineLength": 900000,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "off",
+  "emmet.includeLanguages": {
+    "blade": "html",
+  },
+  "eslint.useFlatConfig": true,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": false,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false,
+  },
+  "github.copilot.selectedCompletionModel": "",
+  "gitlens.mode.active": "review",
   "gitlens.views.scm.grouped.views": {
     "commits": true,
     "branches": true,
@@ -142,23 +164,78 @@
     "worktrees": true,
     "contributors": true,
     "fileHistory": true,
-    "repositories": false,
+    "repositories": true,
     "searchAndCompare": true,
-    "launchpad": false
+    "launchpad": false,
   },
-  "intelephense.telemetry.enabled": false,
-  "intelephense.environment.phpVersion": "8.3.0",
   "intelephense.codeLens.implementations.enable": true,
   "intelephense.codeLens.overrides.enable": true,
   "intelephense.codeLens.parent.enable": true,
-  "intelephense.codeLens.usages.enable": true,
   "intelephense.codeLens.references.enable": true,
-  "github.copilot.selectedCompletionModel": "",
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
+  "intelephense.codeLens.usages.enable": true,
+  "intelephense.environment.phpVersion": "8.3.0",
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**/{Tests,tests}/**",
+    "**/.history/**",
+    "**/vendor/**/vendor/**",
+  ],
+  "intelephense.telemetry.enabled": false,
+  "java.referencesCodeLens.enabled": true,
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.referencesCodeLens.enabled": true,
+  "js/ts.referencesCodeLens.showOnAllFunctions": true,
+  "json.schemaDownload.trustedDomains": {
+    "https://models.dev/": true,
+    "https://opencode.ai/": true,
+    "https://raw.githubusercontent.com/": true,
   },
-  "todo-tree.general.tags": ["XBUG", "XFIXME", "XTODO"]
+  "laravel-pint.enable": true,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "phpcs.showSources": true,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "crash",
+  "todo-tree.tree.expanded": true,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.includeFilename": true,
+  "turboConsoleLog.includeLineNum": true,
+  "turboConsoleLog.isTurboTelemetryEnabled": false,
+  "turboConsoleLog.logMessagePrefix": "🪵",
+  "turboConsoleLog.logMessageSuffix": " => ",
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}",
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "left",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Atom One Dark",
+  "window.autoDetectColorScheme": true,
+  "workbench.colorCustomizations": {},
+  "gitlens.views.commits.files.layout": "tree",
+  "cSpell.showInRuler": false,
+  "cSpell.useCustomDecorations": true,
+  "chat.disableAIFeatures": true,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "gitlens.sortBranchesBy": "name:desc",
+  "gitlens.views.scm.grouped.hiddenViews": {
+    "commits": false,
+    "worktrees": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "contributors": true,
+    "repositories": true,
+    "fileHistory": false,
+    "launchpad": true,
+    "searchAndCompare": false,
+  },
+  "gitlens.views.branches.branches.layout": "list",
 }
