@@ -132,7 +132,9 @@ _minmin_probe_osc() {
       resp=$c
       while IFS= read -r -k 1 -t 0.05 c 2>/dev/null </dev/tty; do
         resp+=$c
-        [[ $c == $'\a' || $c == '\\' ]] && break
+        # One byte per read, so the ST terminator is seen as its trailing '\'
+        # (a bare backslash cannot occur inside an rgb: reply).
+        [[ $c == $'\a' || $c == '\' ]] && break
       done
     fi
   } always {
